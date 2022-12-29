@@ -1,0 +1,332 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Freeman Curriculum Vitae
+% XeLaTeX Template
+% Version 2.0 (19/3/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%!TEX program = xelatex
+% NOTICE: This template must be compiled with XeLaTeX, the line above should
+% ensure this happens automatically but if it doesn't you will need to specify 
+% XeLaTeX as the engine in your editor or script
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article} % Font size, can be: 10pt, 11pt or 12pt
+
+\input{structure_N.tex} % Include the file that specifies the document structure
+
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example right footer:
+%\rfoot{\color{headings}{\sffamily Last update: \today. Typeset with Xe\LaTeX}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{paracol}{2}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CURRICULUM VITAE TEXT
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\centering % Centre text
+	{\sffamily\Huge Nhut Nguyen, Ph.D.}\\\medskip % Your name
+    \centering
+    {\sffamily C++ Software Engineer | Writer }
+}
+
+\switchcolumn % Switch to the next paracol column
+%----------------------------------------------------------------------------------------
+%	COLOURED CONTACT DETAILS BOX
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\colorbox{shade}{ % Create the coloured box
+		\begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
+			% \raisebox{-1pt}{\faHome} & xxxx Denmark  \\ %Broholms Alle 20, 2. tv., 2920, Charlottenlund \\ % Address
+			\raisebox{-1pt}{\faPhone} & +45 xxxx xxxx \\ % Phone number 5271 9457
+			\raisebox{0pt}{\small\faEnvelope} & \href{mailto:nhut@nhutnguyen.com}{nhut@nhutnguyen.com} \\ % Email address
+			% \raisebox{-1pt}{\small\faDesktop} & \href{https://nhut.one}{https://nhut.one} \\ % Website
+			\raisebox{-1pt}{\faGithub} & \href{https://github.com/ntnhut}{https://github.com/ntnhut} \\ % GitHub profile
+			\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/ntnhut}{https://www.linkedin.com/in/ntnhut} \\ % LinkedIn profile
+			% See fontawesome.pdf in the fonts folder for all icons you can use
+		\end{supertabular}
+	}
+}
+
+\switchcolumn
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+% Blank \workposition command to add another job:
+
+%\workposition{} % Duration
+%{} % FT/PT (full time or part time)
+%{} % Employer
+%{} % Job title
+%{} % Description
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+\workposition{Dec 2022 -- present} % Duration
+{1 mo} % FT/PT (full time or part time)
+{Alipes ApS} % Employer
+{C++ Software Engineer} % Job title
+{Implementing high performance trading algorithms.
+} % Description
+
+\workposition{Dec 2021 -- Nov 2022} % Duration
+{1 yr} % FT/PT (full time or part time)
+{CLAAS E-Systems Denmark} % Employer
+{C++ Software Developer} % Job title
+{Implemented base software for smart cameras in agricultural machinery.
+} % Description
+
+
+\workposition{Aug 2018 -- Sep 2021} % Duration
+{3 yrs 1 mo} % FT/PT (full time or part time)
+{Synopsys Denmark ApS} % Employer
+{Senior R\&D Engineer} % Job title
+{Improved the robustness and the performance of the optimization engines in Place and Route system IC Compiler II.
+} % Description
+
+%------------------------------------------------
+
+\workposition{Feb 2016 -- July 2018} % Duration
+{2 yrs 6 mos} % FT/PT (full time or part time)
+{Teklatech A/S} % Employer
+{Software Development Engineer} % Job title
+{Modeled the Power Delivery Network behaviors in FloorDirector, the industry-leading tool for reducing peak current demand and dynamic voltage drop in ASIC designs.}  % Description
+
+%------------------------------------------------
+
+\workposition{Aug 2012 -- Dec 2015} % Duration
+{3 yrs 5 mos} % FT/PT (full time or part time)
+{Technical University of Denmark} % Employer
+{Employed Ph.D. Student} % Job title
+{Provided an explicit construction for asymptotically Error-Correcting Codes using the theory of Drinfeld modular curves in Algebraic Geometry and Number Theory.} % Description
+
+%------------------------------------------------
+
+\workposition{Jan 2005 -- Jul 2012} % Duration
+{7 yrs 7 mos} % FT/PT (full time or part time)
+{Vietnam National University HCM -- University of Science} % Employer
+{Lecturer} % Job title
+{Designed, gave lectures and supervised students on the courses of Algebra Computer Systems, Cryptography, Coding Theory, Arithmetics.} % Description
+
+%------------------------------------------------
+
+\workposition{May 2011 -- Sep 2011} % Duration
+{5 mos} % FT/PT (full time or part time)
+{eSilicon Vietnam} % Employer
+{Software Developer} % Job title
+{Developed an automated system that generated metal connections for test chips.
+Designed 5 practical projects for students to work for the company as interns.} % Description
+
+%------------------------------------------------
+
+\vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
+
+
+%----------------------------------------------------------------------------------------
+
+\switchcolumn % Switch to the next paracol column
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Software Development Skills} 
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+   	%------------------------------------------------
+	
+	\tableentry{Architect/Technique}{Agile Software Development}{}	
+	% \tableentry{}{Azure, Docker, Kubernetes}{}
+    \tableentry{}{Object-Oriented Programming}{}
+	\tableentry{}{Test-Driven Development}{}
+	\tableentry{}{Multithreaded Programming}{}
+    \tableentry{}{Distributed Systems}{}
+	\tableentry{}{Embedded Systems}{spaceafter}
+
+
+	%------------------------------------------------
+	
+	\tableentry{Languages}{C++, Tcl, C\#, Python}{}
+	\tableentry{}{Yocto}{}
+	%------------------------------------------------
+	
+	\tableentry{Tools}{VS Code, Eclipse, Jira, Linux}{}
+	\tableentry{}{Git, GitHub, Perforce}{}
+	\tableentry{}{CI/CD, MS Azure}{}
+	%------------------------------------------------
+
+	\tableentry{Communication}{Teams, Slack}{}
+    \tableentry{}{Documentation, Code Review}{}
+    % \tableentry{}{}{}
+	%------------------------------------------------
+	
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS DESCRIPTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education} 
+
+% Blank \educationentry{} command to add another degree:
+
+%\educationentry{} % Duration
+%{} % Degree
+%{} % Honours, achievements or distinctions (e.g. first class honours)
+%{} % Department
+%{} % Institution
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+	
+	\educationentry{2012 -- 2015} % Duration
+	{Doctor of Philosophy} % Degree
+	{Applied Mathematics and Computer Science} % Department
+    {Thesis: Asymptotically Good Codes} % Honours, achievements or distinctions (e.g. first class honours)
+	{Technical University of Denmark} % Institution
+	
+	%------------------------------------------------
+	
+	\educationentry{2005 -- 2009} % Duration
+	{Master of Science} % Degree
+	{Algebra and Number Theory} % Department
+    {Thesis: Group-based Cryptography} % Honours, achievements or distinctions (e.g. first class honours)
+	{VNUHCM -- University of Science} % Institution
+	
+	%------------------------------------------------
+	
+	\educationentry{2000 -- 2004} % Duration
+	{Bachelor of Science} % Degree
+	{Mathematics and Computer Science} % Department
+    {Thesis: Face Detection} % Honours, achievements or distinctions (e.g. first class honours)
+	{VNUHCM -- University of Science} % Institution
+	
+	%------------------------------------------------
+
+\end{supertabular}
+
+
+\section{Interests}
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+	
+    % 	%------------------------------------------------
+        \tableentry{Problem Solving}{Solve LeetCoding Challenges}{}
+        \tableentry{Writing}{Technical Articles, Personal Blogs}{}
+    	\tableentry{Sports}{Football, Badminton, Swimming}{}
+        \tableentry{Others}{Learn New Skills Everyday}{}
+    	% \tableentry{}{Read and Write Blogs}{spaceafter}
+
+\end{supertabular}    
+
+
+\medskip % Extra whitespace before the next section
+
+
+\section{Languages}
+
+\begin{supertabular}{rl}
+
+	\tableentry{English}{Fluent}{}
+	\tableentry{Danish}{Limited working proficiency}{}
+	\tableentry{Vietnamese}{Native}{}
+	
+\end{supertabular}    
+
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+% \section{References}
+
+%\textit{References available on request}
+
+%------------------------------------------------
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+% \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+	
+	%------------------------------------------------
+	% \tableentry{}{\textbf{Tobias Bjerregaard}}{spaceafter}
+	% \tableentry{}{Director R\&D, Synopsys Inc.}{}
+	% % \tableentry{Employer}{\href{https://www.synopsys.com/}{Synopsys Inc.}}{}
+	% \tableentry{}{\href{mailto:bjerrega@synopsys.com}{bjerrega@synopsys.com}}{}
+	
+	% %------------------------------------------------
+	
+	% \tableentry{}{}{} % Creates some additional whitespace between the references
+	
+	% %------------------------------------------------
+	
+	% \tableentry{}{\textbf{Jannich Thorsen}}{spaceafter}
+	% \tableentry{}{Principal Engineer, Synopsys Inc.}{}
+	% % \tableentry{Employer}{\href{https://www.synopsys.com/}{Synopsys Inc.}}{}
+	% \tableentry{}{\href{mailto:jannich@synopsys.com}{jannich@synopsys.com}}{}
+	
+	%------------------------------------------------
+	
+% \end{supertabular}
+
+\medskip % Extra whitespace before the next section
+
+\end{paracol}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
