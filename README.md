@@ -1,4 +1,5 @@
 # My resume
+This template originates from [http://www.LaTeXTemplates.com](http://www.LaTeXTemplates.com).
 
 ## Build
 1. Install `xelatex`.
