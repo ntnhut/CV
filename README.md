@@ -1,10 +1,15 @@
 # My resume
 This template originates from [http://www.LaTeXTemplates.com](http://www.LaTeXTemplates.com).
 
+## Requirement
+- `xelatex` is installed in your computer.
+
+## Checkout
+```
+$ git clone https://github.com/ntnhut/CV.git
+```
 ## Build
-1. Install `xelatex`.
-2. Build
 ```
-xelatex.exe .\cv_Nhut.tex
+$ xelatex.exe .\cv_Nhut.tex
 ```
-It produces `cv_Nhut.pdf`.
+It will produce `cv_Nhut.pdf`.
