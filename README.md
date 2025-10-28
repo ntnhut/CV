@@ -1,17 +1,29 @@
-# My resume in LaTeX
-This template originates from [http://www.LaTeXTemplates.com](http://www.LaTeXTemplates.com).
+## My Résumé — Written in LaTeX
 
-## Requirement
-- `xelatex` is installed in your computer.
+This repository contains the LaTeX source for my personal résumé.
 
-## Checkout
+I use LaTeX to write my résumé because I treat it as a piece of code — version-controlled, reproducible, and beautifully typeset. Every change in my career history is tracked just like a software project.
+
+### 🛠️ Features
+
+* Clean and minimal design for professional readability.
+* Fully customizable and version-controlled.
+* Compatible with any modern LaTeX distribution.
+* PDF build via command line or Overleaf.
+
+### 🧰 Build Instructions
+
+* This template originates from [http://www.LaTeXTemplates.com](http://www.LaTeXTemplates.com).
+* `xelatex` is required to be installed in your computer.
+* To compile the résumé locally:
 ```
-$ git clone https://github.com/ntnhut/CV.git
+xelatex -interaction=nonstopmode cv_Nhut.tex
 ```
-## Build
-1. Install `xelatex`.
-2. Build with
-```
-xelatex -interaction=nonstopmode .\cv_Nhut.tex
-```
-It will produce `cv_Nhut.pdf`.
+It produces `cv_Nhut.pdf`.
+
+### 💡 Why LaTeX?
+
+* Precise control over layout and typography.
+* Perfect for engineers and researchers who want structure and clarity.
+* Easy to track changes using Git.
+* Portable and consistent across systems.
