@@ -9,17 +9,17 @@ I use LaTeX to write my résumé because I treat it as a piece of code — versi
 * Clean and minimal design for professional readability.
 * Fully customizable and version-controlled.
 * Compatible with any modern LaTeX distribution.
-* PDF build via command line or Overleaf.
+* PDF build via command line.
 
 ### 🧰 Build Instructions
 
 * This template originates from [http://www.LaTeXTemplates.com](http://www.LaTeXTemplates.com).
-* `xelatex` is required to be installed in your computer.
+* `xelatex` is required to be installed on your computer.
 * To compile the résumé locally:
 ```
 xelatex -interaction=nonstopmode cv_Nhut.tex
 ```
-It produces `cv_Nhut.pdf`.
+It produces `cv_Nhut.pdf`. You can view it here in this repo, too.
 
 ### 💡 Why LaTeX?
 
