@@ -42,12 +42,12 @@
 %	NAME AND CURRICULUM VITAE TEXT
 %----------------------------------------------------------------------------------------
 
-\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
+\parbox[top][0.10\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
 	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
 	\centering % Centre text
 	{\sffamily\Huge Nhut Nguyen, Ph.D.}\\\medskip % Your name
     \centering
-    {\sffamily High-performance C++ Engineer \\ Problem Solver \& Lifelong Learner} % Your CV text
+    {\sffamily Senior C++ Software Engineer - Systems \& Performance \\ Problem Solver \& Lifelong Learner} % Your CV text
 }
 
 \switchcolumn % Switch to the next paracol column
@@ -55,7 +55,7 @@
 %	COLOURED CONTACT DETAILS BOX
 %----------------------------------------------------------------------------------------
 
-\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
+\parbox[top][0.10\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
 	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
 	\colorbox{shade}{ % Create the coloured box
 		\begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
@@ -88,22 +88,25 @@
 % All 5 parameters must be supplied but any can be empty if you don't need them
 
 %------------------------------------------------
-\workposition{Dec 2022 -- present} % Duration
+\workposition{Dec 2022 -- Nov 2025} % Duration
 {3 yrs} % FT/PT (full time or part time)
 {Alipes ApS (Denmark)} % Employer
 {Research Infrastructure Engineer} % Job title
-{- Implement, verify and optimize financial algorithms that support high-performance computation and scalability. \\
- - Ensure the trading predictions run in microseconds using modern low-latency C++, multithreading, and CUDA. \\
- - Collaborate with tech and quants to improve model accuracy and performance. \\
- - Develop and maintain internal tools and libraries to streamline research and development processes. \\
- - Prepare documentation, conduct code reviews, and presentations.
+{- Implemented, verified and optimized financial algorithms that support high-performance computation and scalability. \\
+ - Designed and maintained high-performance C++ systems with strict latency and stability requirements. \\
+ - Worked on multi-threaded, low-level components where correctness and determinism are critical. \\
+ - Debugged complex runtime issues using profilers and low-level diagnostics. \\
+ - Collaborated with tech and quants to improve model accuracy and performance. \\
+ - Developed and maintained internal tools and libraries to streamline research and development processes. \\
+ - Prepared documentation, conducted code reviews, and presentations.
 } % Description
 
 \workposition{Dec 2021 -- Nov 2022} % Duration
 {1 yr} % FT/PT (full time or part time)
 {CLAAS E-Systems Denmark} % Employer
 {C++ Software Developer} % Job title
-{- Developed software modules in C/C++ for AUTOSAR-based automation applications on embedded devices. \\
+{- Developed C/C++ software for AUTOSAR-based embedded systems with strong focus on robustness and long-term maintainability. \\
+- Worked in regulated, hardware-integrated environments similar to safety-critical systems. \\
 - Modernized the base software for smart cameras in agricultural machinery with the new Embedded IT platform.
 } % Description
 
@@ -113,7 +116,8 @@
 {Synopsys Denmark ApS} % Employer
 {Senior R\&D Engineer} % Job title
 {- Designed and developed software for the computer-aided design of next-generation microchips. \\
-- Improved the robustness of the timing optimization engines to 95\% and their performance to 2x.
+- Improved the robustness of the timing optimization engines to 95\% and their performance to 2x. \\
+- Analyzed, refactored, and extended large legacy C++ codebases.
 } % Description
 
 %------------------------------------------------
@@ -125,9 +129,11 @@
 {- Modeled the Power Delivery Network with all complex connections.}  % Description
 
 %------------------------------------------------
+\switchcolumn % Switch to the next paracol column
 
-\workposition{Aug 2012 -- Dec 2015} % Duration
-{3 yrs 5 mos} % FT/PT (full time or part time)
+
+\workposition{Aug 2012 -- Oct 2015} % Duration
+{3 yrs 3 mos} % FT/PT (full time or part time)
 {Technical University of Denmark} % Employer
 {Employed Ph.D. Student} % Job title
 {- Provided an explicit construction for asymptotically Error-Correcting Codes using the theory of Drinfeld modular curves in Algebraic Geometry and Number Theory.} % Description
@@ -137,13 +143,12 @@
 
 %------------------------------------------------
 
-\switchcolumn % Switch to the next paracol column
 
 \workposition{Jan 2005 -- Jul 2012} % Duration
 {7 yrs 7 mos} % FT/PT (full time or part time)
 {Vietnam National University HCM -- School of Science} % Employer
 {Lecturer} % Job title
-{- Designed, gave lectures and supervised students on Algebra Computer Systems, Cryptography, Coding Theory, Arithmetics.} % Description
+{- Designed, gave lectures on Algebra Computer Systems, Cryptography, Coding Theory, Arithmetics.} % Description
 
 %------------------------------------------------
 
@@ -170,25 +175,25 @@
 
    	%------------------------------------------------
 	
-	\tableentry{Architects}{Agile Software Development}{}	
+	\tableentry{Architects}{Agile, OOP, TDD}{}	
 	% \tableentry{}{Azure, Docker, Kubernetes}{}
-    \tableentry{}{Object-Oriented Programming}{}
-	\tableentry{}{Test-Driven Development}{}
+    % \tableentry{}{Object-Oriented Programming}{}
+	% \tableentry{}{Test-Driven Development}{}
 	\tableentry{}{Multithreaded Programming}{spaceafter}
 
 
 	%------------------------------------------------
 
-	\tableentry{Programming}{C++23, Python}{}
-	\tableentry{Languages}{C, C\#}{spaceafter}
+	\tableentry{Languages}{C++23, Python}{spaceafter}
+	% \tableentry{Languages}{C, C\#}{spaceafter}
 	%------------------------------------------------
 	
-	\tableentry{AI Tools}{ChatGPT, Claude, Copilot}{spaceafter}
+	% \tableentry{AI Tools}{ChatGPT, Claude, Copilot}{spaceafter}
 	%------------------------------------------------
 	
-	\tableentry{Others}{VS Code, Rider}{}
-	\tableentry{}{CI/CD, Git, GitHub, GitLab}{}
-	\tableentry{}{Linux, Docker, CMake}{}
+	\tableentry{Platforms}{Windows, Linux}{spaceafter}
+	\tableentry{Tooling}{Visual Studio, VS Code, CMake}{}
+	\tableentry{}{Git, GitHub, GitLab}{}
 	\tableentry{}{YouTrack, Jenkins, TeamCity}{spaceafter}
 
 	%------------------------------------------------
@@ -259,7 +264,7 @@
 \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
 	
     % 	%------------------------------------------------
-        \tableentry{Give a way}{Free, Open-source Projects, Books}{}
+        % \tableentry{Give a way}{Free, Open-source Projects, Books}{}
         \tableentry{Writing}{Books, Blogs, Social Posts}{}
     	\tableentry{Sports}{Football, Badminton, Swimming}{}
         \tableentry{Others}{Learning Everyday}{}
@@ -268,7 +273,7 @@
 \end{supertabular}    
 
 
-\medskip % Extra whitespace before the next section
+% \medskip % Extra whitespace before the next section
 
 
 \section{Languages}
@@ -281,7 +286,7 @@
 
 \end{supertabular}    
 
-\vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
+% \vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
 
 %----------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
