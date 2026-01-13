@@ -42,12 +42,12 @@
 %	NAME AND CURRICULUM VITAE TEXT
 %----------------------------------------------------------------------------------------
 
-\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
+\parbox[top][0.11\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
 	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
 	\centering % Centre text
 	{\sffamily\Huge Nhut Nguyen, Ph.D.}\\\medskip % Your name
     \centering
-    {\sffamily High-performance C++ Engineer \\ Problem Solver \& Lifelong Learner} % Your CV text
+    {\sffamily Senior GPU \& High-performance C++ Engineer} % Your CV text
 }
 
 \switchcolumn % Switch to the next paracol column
@@ -55,7 +55,7 @@
 %	COLOURED CONTACT DETAILS BOX
 %----------------------------------------------------------------------------------------
 
-\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
+\parbox[top][0.11\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
 	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
 	\colorbox{shade}{ % Create the coloured box
 		\begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
@@ -88,23 +88,22 @@
 % All 5 parameters must be supplied but any can be empty if you don't need them
 
 %------------------------------------------------
-\workposition{Dec 2022 -- present} % Duration
+\workposition{Dec 2022 -- Nov 2025} % Duration
 {3 yrs} % FT/PT (full time or part time)
 {Alipes ApS (Denmark)} % Employer
 {Research Infrastructure Engineer} % Job title
-{- Implement, verify and optimize financial algorithms that support high-performance computation and scalability. \\
- - Ensure the trading predictions run in microseconds using modern low-latency C++, multithreading, and CUDA. \\
- - Collaborate with tech and quants to improve model accuracy and performance. \\
- - Develop and maintain internal tools and libraries to streamline research and development processes. \\
- - Prepare documentation, conduct code reviews, and presentations.
+{- Designed and implemented performance-critical components in modern low-latency C++ and CUDA to support real-time trading predictions. \\
+- Ensured inference/decision pipelines operate at microsecond latencies via careful kernel tuning, multithreading, and memory-layout optimizations. \\
+- Implemented profiling and benchmarking workflows to measure throughput, latency and resource use; iterated on hotspots identified by profilers. \\
+- Built internal libraries and tooling to standardize performance testing and to ease integration of algorithmic code into production research stacks. \\
+- Collaborated closely with quants and system engineers to translate algorithm requirements into GPU-friendly implementations.
 } % Description
 
 \workposition{Dec 2021 -- Nov 2022} % Duration
 {1 yr} % FT/PT (full time or part time)
 {CLAAS E-Systems Denmark} % Employer
 {C++ Software Developer} % Job title
-{- Developed software modules in C/C++ for AUTOSAR-based automation applications on embedded devices. \\
-- Modernized the base software for smart cameras in agricultural machinery with the new Embedded IT platform.
+{- Developed and modernized embedded C/C++ modules for AUTOSAR-based systems; experience with constrained environments and cross-compilation workflows.
 } % Description
 
 
@@ -112,8 +111,9 @@
 {3 yrs 1 mo} % FT/PT (full time or part time)
 {Synopsys Denmark ApS} % Employer
 {Senior R\&D Engineer} % Job title
-{- Designed and developed software for the computer-aided design of next-generation microchips. \\
-- Improved the robustness of the timing optimization engines to 95\% and their performance to 2x.
+{- Developed performance-sensitive software for EDA tools used in next-generation microchip design. \\
+- Improved robustness and runtime performance of core timing engines (2x speedups in key paths), demonstrating strong skills in algorithmic profiling and low-level optimization. \\
+- Worked on software closely linked to hardware considerations — gaining intuition for hardware resource constraints and parallel execution.
 } % Description
 
 %------------------------------------------------
@@ -122,9 +122,11 @@
 {2 yrs 6 mos} % FT/PT (full time or part time)
 {Teklatech A/S (Denmark)} % Employer
 {Software Development Engineer} % Job title
-{- Modeled the Power Delivery Network with all complex connections.}  % Description
+{- Modeled complex hardware systems (Power Delivery Network), applying numerical and systems thinking relevant to performant simulation and dataflow problems.}  % Description
 
 %------------------------------------------------
+
+\switchcolumn % Switch to the next paracol column
 
 \workposition{Aug 2012 -- Dec 2015} % Duration
 {3 yrs 5 mos} % FT/PT (full time or part time)
@@ -136,8 +138,6 @@
 % \vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
 
 %------------------------------------------------
-
-\switchcolumn % Switch to the next paracol column
 
 \workposition{Jan 2005 -- Jul 2012} % Duration
 {7 yrs 7 mos} % FT/PT (full time or part time)
@@ -170,31 +170,31 @@
 
    	%------------------------------------------------
 	
-	\tableentry{Architects}{Agile Software Development}{}	
+	% \tableentry{Architects}{Agile Software Development}{}	
 	% \tableentry{}{Azure, Docker, Kubernetes}{}
-    \tableentry{}{Object-Oriented Programming}{}
+    \tableentry{Architects}{Object-Oriented Programming}{}
 	\tableentry{}{Test-Driven Development}{}
 	\tableentry{}{Multithreaded Programming}{spaceafter}
 
 
 	%------------------------------------------------
 
-	\tableentry{Programming}{C++23, Python}{}
-	\tableentry{Languages}{C, C\#}{spaceafter}
+	\tableentry{Languages}{C++23, CUDA, Python}{spaceafter}
+	% \tableentry{Languages}{C, C\#}{spaceafter}
 	%------------------------------------------------
 	
-	\tableentry{AI Tools}{ChatGPT, Claude, Copilot}{spaceafter}
+	% \tableentry{AI Tools}{ChatGPT, Claude, Copilot}{spaceafter}
 	%------------------------------------------------
 	
-	\tableentry{Others}{VS Code, Rider}{}
-	\tableentry{}{CI/CD, Git, GitHub, GitLab}{}
+	% \tableentry{Tooling}{VS Code, Rider}{}
+	\tableentry{Tooling}{CI/CD, Git, GitHub, GitLab}{}
 	\tableentry{}{Linux, Docker, CMake}{}
 	\tableentry{}{YouTrack, Jenkins, TeamCity}{spaceafter}
 
 	%------------------------------------------------
 
-	\tableentry{Communication}{Teams, Slack}{}
-    \tableentry{}{Documentation, Code Review}{spaceafter}
+	% \tableentry{Communication}{Teams, Slack}{}
+    % \tableentry{}{Documentation, Code Review}{spaceafter}
     % \tableentry{}{}{}
 	%------------------------------------------------
 	
@@ -229,24 +229,24 @@
 	
 	\educationentry{2012 -- 2015} % Duration
 	{Ph.D. in Math \& Computer Science} % Degree
-	{} %Applied Math \& Computer Science} % Department
-    {} % {Thesis: Asymptotically Good Codes} % Honours, achievements or distinctions (e.g. first class honours)
+	% {} %Applied Math \& Computer Science} % Department
+    {} {Thesis: Asymptotically Good Codes} % Honours, achievements or distinctions (e.g. first class honours)
 	{Technical University of Denmark} % Institution
 	
 	%------------------------------------------------
 	
 	\educationentry{2005 -- 2009} % Duration
 	{M.Sc. in Algebra \& Number Theory} % Degree
-	{} %Algebra and Number Theory} % Department
-    {} % {Thesis: Group-based Cryptography} % Honours, achievements or distinctions (e.g. first class honours)
+	% {} %Algebra and Number Theory} % Department
+    {} {Thesis: Group-based Cryptography} % Honours, achievements or distinctions (e.g. first class honours)
 	{Vietnam National University HCM} % Institution
 	
 	%------------------------------------------------
 	
 	\educationentry{2000 -- 2004} % Duration
 	{B.Sc. in Math \& Computer Science} % Degree
-	{} %Mathematics and Computer Science} % Department
-    {} % {Thesis: Face Detection} % Honours, achievements or distinctions (e.g. first class honours)
+	% {} %Mathematics and Computer Science} % Department
+    {} {Thesis: Face Detection} % Honours, achievements or distinctions (e.g. first class honours)
 	{Vietnam National University HCM} % Institution
 	
 	%------------------------------------------------
@@ -259,10 +259,10 @@
 \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
 	
     % 	%------------------------------------------------
-        \tableentry{Give a way}{Free, Open-source Projects, Books}{}
+        % \tableentry{Give a way}{Free, Open-source Projects, Books}{}
         \tableentry{Writing}{Books, Blogs, Social Posts}{}
     	\tableentry{Sports}{Football, Badminton, Swimming}{}
-        \tableentry{Others}{Learning Everyday}{}
+        % \tableentry{Others}{Learning Everyday}{}
     	% \tableentry{}{Read and Write Blogs}{spaceafter}
 
 \end{supertabular}    
@@ -276,7 +276,7 @@
 \begin{supertabular}{rl}
 
 	\tableentry{English}{Fluent}{}
-	\tableentry{Danish}{Limited working proficiency}{}
+	% \tableentry{Danish}{Limited working proficiency}{}
 	\tableentry{Vietnamese}{Native}{}
 
 \end{supertabular}    
