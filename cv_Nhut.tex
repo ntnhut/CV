@@ -43,11 +43,11 @@
 %----------------------------------------------------------------------------------------
 
 \parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
-	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\vspace{-0.02\textheight} % Reduce whitespace above the parbox to separate it from the main content
 	\centering % Centre text
 	{\sffamily\Huge Nhut Nguyen, Ph.D.}\\\medskip % Your name
     \centering
-    {\sffamily High-performance C++ Engineer \\ Problem Solver \& Lifelong Learner} % Your CV text
+    {\sffamily Senior Developer | HFT C++ Engineer \\ High-Performance Trading Systems | Low-Latency C++} % Your CV text
 }
 
 \switchcolumn % Switch to the next paracol column
@@ -56,7 +56,7 @@
 %----------------------------------------------------------------------------------------
 
 \parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
-	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\vspace{-0.02\textheight} % Reduce whitespace above the parbox to separate it from the main content
 	\colorbox{shade}{ % Create the coloured box
 		\begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
 			% \raisebox{-1pt}{\faHome} & xxxx Denmark  \\ % Address
@@ -71,9 +71,23 @@
 }
 
 \switchcolumn
+
+\section{Profile}
+Strategy C++ engineer in high-frequency, latency-critical trading systems. Experienced in developing and optimizing real-time trading logic, execution paths, and performance-critical infrastructure operating at microsecond scale. Strong ownership mindset with deep systems knowledge and close collaboration with quants and traders.
+
+\medskip % Vertical whitespace
+
+\section{Core Expertise}
+- Low-Latency C++20/23, lock-free & multithreaded systems \\
+- High-frequency Trading Systems \\
+- Strategy logic, execution, and real-time risk controls \\
+- Performance optimization, determinism, and profiling \\
+- Data structures, algorithms, cache-aware design \\
+- Distributed & real-time production systems
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
+\medskip % Vertical whitespace
 
 \section{Work Experience}
 
@@ -92,28 +106,34 @@
 {3 yrs} % FT/PT (full time or part time)
 {Alipes ApS (Denmark)} % Employer
 {Research Infrastructure Engineer} % Job title
-{- Implement, verify and optimize financial algorithms that support high-performance computation and scalability. \\
- - Ensure the trading predictions run in microseconds using modern low-latency C++, multithreading, and CUDA. \\
- - Collaborate with tech and quants to improve model accuracy and performance. \\
- - Develop and maintain internal tools and libraries to streamline research and development processes. \\
- - Prepare documentation, conduct code reviews, and presentations.
+{- Developed and optimized latency-critical C++ components supporting live trading and prediction systems running in microsecond time budgets. \\
+- Implemented, validated, and optimized financial algorithms used directly in production decision-making. \\
+- Worked closely with quants and researchers to translate models into efficient, production-ready C++ strategy components. \\ 
+- Improved throughput and determinism through cache-aware data structures, multithreading, and low-level optimizations. \\
+- Maintained and evolved internal libraries used across research, simulation, and live trading workflows.\\
+- Participated in production ownership, debugging live issues and improving system robustness under load. \\
+- Used CUDA selectively for performance-critical workloads where latency/throughput trade-offs justified acceleration..
 } % Description
+
 
 \workposition{Dec 2021 -- Nov 2022} % Duration
 {1 yr} % FT/PT (full time or part time)
 {CLAAS E-Systems Denmark} % Employer
 {C++ Software Developer} % Job title
-{- Developed software modules in C/C++ for AUTOSAR-based automation applications on embedded devices. \\
-- Modernized the base software for smart cameras in agricultural machinery with the new Embedded IT platform.
+{- Modernized performance-critical C++ software for embedded real-time systems. \\
+- Improved system reliability and determinism on constrained hardware. \\
+- Worked close to hardware and OS boundaries, strengthening real-time and systems programming skills.
 } % Description
 
+\switchcolumn % Switch to the next paracol column
 
 \workposition{Aug 2018 -- Sep 2021} % Duration
 {3 yrs 1 mo} % FT/PT (full time or part time)
 {Synopsys Denmark ApS} % Employer
 {Senior R\&D Engineer} % Job title
-{- Designed and developed software for the computer-aided design of next-generation microchips. \\
-- Improved the robustness of the timing optimization engines to 95\% and their performance to 2x.
+{- Optimized complex timing optimization engines, achieving 2x performance improvements. \\
+- Strengthened robustness of core algorithms to ~95\% reliability in production workloads. \\
+- Deepened expertise in algorithmic optimization, profiling, and large-scale C++ codebases.
 } % Description
 
 %------------------------------------------------
@@ -122,28 +142,28 @@
 {2 yrs 6 mos} % FT/PT (full time or part time)
 {Teklatech A/S (Denmark)} % Employer
 {Software Development Engineer} % Job title
-{- Modeled the Power Delivery Network with all complex connections.}  % Description
+{- Built and optimized computational models for power delivery networks with complex interconnections. \\
+- Focused on correctness, performance, and scalability in numerically intensive systems.}  % Description
 
 %------------------------------------------------
 
-\workposition{Aug 2012 -- Dec 2015} % Duration
-{3 yrs 5 mos} % FT/PT (full time or part time)
-{Technical University of Denmark} % Employer
-{Employed Ph.D. Student} % Job title
-{- Provided an explicit construction for asymptotically Error-Correcting Codes using the theory of Drinfeld modular curves in Algebraic Geometry and Number Theory.} % Description
+% \workposition{Aug 2012 -- Dec 2015} % Duration
+% {3 yrs 5 mos} % FT/PT (full time or part time)
+% {Technical University of Denmark} % Employer
+% {Employed Ph.D. Student} % Job title
+% {- Provided an explicit construction for asymptotically Error-Correcting Codes using the theory of Drinfeld modular curves in Algebraic Geometry and Number Theory.} % Description
 
 
 % \vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
 
 %------------------------------------------------
 
-\switchcolumn % Switch to the next paracol column
 
-\workposition{Jan 2005 -- Jul 2012} % Duration
-{7 yrs 7 mos} % FT/PT (full time or part time)
-{Vietnam National University HCM -- School of Science} % Employer
-{Lecturer} % Job title
-{- Designed, gave lectures and supervised students on Algebra Computer Systems, Cryptography, Coding Theory, Arithmetics.} % Description
+% \workposition{Jan 2005 -- Jul 2012} % Duration
+% {7 yrs 7 mos} % FT/PT (full time or part time)
+% {Vietnam National University HCM -- School of Science} % Employer
+% {Lecturer} % Job title
+% {- Designed, gave lectures and supervised students on Algebra Computer Systems, Cryptography, Coding Theory, Arithmetics.} % Description
 
 %------------------------------------------------
 
@@ -155,7 +175,7 @@
 %	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{Software Development Skills} 
+\section{Technical Skills} 
 
 % Example \tableentry{} command to add another line:
 
@@ -170,31 +190,31 @@
 
    	%------------------------------------------------
 	
-	\tableentry{Architects}{Agile Software Development}{}	
-	% \tableentry{}{Azure, Docker, Kubernetes}{}
-    \tableentry{}{Object-Oriented Programming}{}
-	\tableentry{}{Test-Driven Development}{}
-	\tableentry{}{Multithreaded Programming}{spaceafter}
-
 
 	%------------------------------------------------
 
-	\tableentry{Programming}{C++23, Python}{}
-	\tableentry{Languages}{C, C\#}{spaceafter}
+	% \tableentry{Programming}{C++23, Python}{}
+	\tableentry{Languages}{C++20/23, Python}{spaceafter}
 	%------------------------------------------------
 	
-	\tableentry{AI Tools}{ChatGPT, Claude, Copilot}{spaceafter}
+	% \tableentry{AI Tools}{ChatGPT, Claude, Copilot}{spaceafter}
 	%------------------------------------------------
 	
-	\tableentry{Others}{VS Code, Rider}{}
-	\tableentry{}{CI/CD, Git, GitHub, GitLab}{}
+	\tableentry{Systems}{Git, GitHub, GitLab}{}
+	\tableentry{\& Tools}{CI/CD, Jenkins, TeamCity}{}
 	\tableentry{}{Linux, Docker, CMake}{}
-	\tableentry{}{YouTrack, Jenkins, TeamCity}{spaceafter}
+	\tableentry{}{VS Code, Rider}{}
+	\tableentry{}{Profiling \& debugging tools}{spaceafter}
 
 	%------------------------------------------------
+	\tableentry{Practices}{Performance-driven development}{}	
+	\tableentry{}{System design discussions}{}
+    \tableentry{}{Production ownership \& on-call mindset}{}
+	\tableentry{}{Code reviews, documentation, }{spaceafter}
 
-	\tableentry{Communication}{Teams, Slack}{}
-    \tableentry{}{Documentation, Code Review}{spaceafter}
+
+	% \tableentry{Communication}{Teams, Slack}{}
+    % \tableentry{}{Documentation, Code Review}{spaceafter}
     % \tableentry{}{}{}
 	%------------------------------------------------
 	
@@ -254,18 +274,18 @@
 \end{supertabular}
 
 
-\section{Interests}
+% \section{Interests}
 
-\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+% \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
 	
-    % 	%------------------------------------------------
-        \tableentry{Give a way}{Free, Open-source Projects, Books}{}
-        \tableentry{Writing}{Books, Blogs, Social Posts}{}
-    	\tableentry{Sports}{Football, Badminton, Swimming}{}
-        \tableentry{Others}{Learning Everyday}{}
-    	% \tableentry{}{Read and Write Blogs}{spaceafter}
+%     % 	%------------------------------------------------
+%         \tableentry{Give a way}{Free, Open-source Projects, Books}{}
+%         \tableentry{Writing}{Books, Blogs, Social Posts}{}
+%     	\tableentry{Sports}{Football, Badminton, Swimming}{}
+%         \tableentry{Others}{Learning Everyday}{}
+%     	% \tableentry{}{Read and Write Blogs}{spaceafter}
 
-\end{supertabular}    
+% \end{supertabular}    
 
 
 \medskip % Extra whitespace before the next section
