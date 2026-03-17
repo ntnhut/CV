@@ -15,6 +15,11 @@ I use LaTeX to write my résumé because I treat it as a piece of code — versi
 
 * This template originates from [http://www.LaTeXTemplates.com](http://www.LaTeXTemplates.com).
 * `xelatex` is required to be installed on your computer.
+Linux:
+```
+sudo apt install texlive-xetex
+sudo apt install texlive-fonts-extra
+```
 * To compile the résumé locally:
 ```
 xelatex -interaction=nonstopmode cv_Nhut.tex
