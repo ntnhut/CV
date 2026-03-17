@@ -26,6 +26,10 @@ xelatex -interaction=nonstopmode cv_Nhut.tex
 ```
 It produces `cv_Nhut.pdf`. You can view it here in this repo, too.
 
+Copy file from remote to local machine
+```
+scp nhut@REMOTE_IP:/home/nhut/repos/CV/cv_Nhut.pdf C:\Users\YourName\Downloads\
+```
 ### 💡 Why LaTeX?
 
 * Precise control over layout and typography.
